@@ -1,9 +1,12 @@
 .container {
-    width: 80%;
+    max-width: 80%;
     height: 100%;
     margin: 0 auto;
     border: 1px solid;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+}
+
+@media (max-width: 380px) {
+    .container {
+        max-width: 90%;
+    }
 }
