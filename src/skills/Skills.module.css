@@ -6,7 +6,7 @@
     justify-content: center;
 }
 .skillsContainer {
-    /*height: 700px;*/
+    /*height: 100%;*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -23,3 +23,5 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+/*calc(60% - (683px - 100%)*0.2)*/

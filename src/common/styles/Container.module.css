@@ -1,12 +1,7 @@
 .container {
-    max-width: 80%;
+    width: clamp(300px, 80vw, 1200px);
     height: 100%;
     margin: 0 auto;
     border: 1px solid;
-}
-
-@media (max-width: 380px) {
-    .container {
-        max-width: 90%;
-    }
+    /*margin: 11% 0 4% calc(36% - (683px - 100%)*0.2);*/
 }

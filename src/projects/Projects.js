@@ -14,8 +14,9 @@ function Projects() {
                     <Project/>
                     <Project/>
                     <Project/>
-                    <Project/>
+                    {/*<Project/>*/}
                 </div>
+                <button className={s.btn}>send</button>
             </div>
 
         </div>

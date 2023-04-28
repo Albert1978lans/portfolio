@@ -6,9 +6,8 @@ function Project() {
         <div className={s.project}>
 
             <div className={s.img}></div>
-
-                <span className={s.name}>Name Project</span>
-                <span className={s.description}>Description Project</span>
+            <span className={s.name}>Name Project</span>
+            <span className={s.description}>Description Project</span>
 
 
         </div>
