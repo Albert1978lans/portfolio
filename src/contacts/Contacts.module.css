@@ -8,6 +8,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.title {
+    background-color: #dc9853;
+}
 .contactInf {
     width: clamp(280px, 60vw, 700px);
     display: flex;

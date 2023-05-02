@@ -1,17 +1,27 @@
 .project {
-    margin: 10px 10px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid;
     display: flex;
     flex-direction: column;
 }
-.img {
+.imgContainer {
     width: 280px;
-    height: 350px;
+    height: 300px;
     background-color: dimgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.btn {
+    background-color: #8c7c7c;
+    font-size: 25px;
+}
 .name {
-    background-color: #f7f7f7;
+    background-color: #dc9853;
+    margin: 5px;
 }
 .description {
-    background-color: #f7f7f7;
+    background-color: #dc9853;
+    margin: 5px;
 }

@@ -9,6 +9,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.title {
+    background-color: #f7f7f7;
+}
 .footerInf {
     width: clamp(280px, 63vw, 1200px);
     display: flex;

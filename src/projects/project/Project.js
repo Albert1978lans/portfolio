@@ -5,7 +5,9 @@ function Project() {
     return (
         <div className={s.project}>
 
-            <div className={s.img}></div>
+            <div className={s.imgContainer}>
+                <button className={s.btn}>посмотреть</button>
+            </div>
             <span className={s.name}>Name Project</span>
             <span className={s.description}>Description Project</span>
 

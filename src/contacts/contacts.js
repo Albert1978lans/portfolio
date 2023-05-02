@@ -6,12 +6,12 @@ function Contacts() {
     return (
         <div className={ s.contactsBlock}>
             <div className={`${stylesContainer.container} ${s.contactsContainer}`}>
-                <h2>Contacts</h2>
-                <div className={s.contactInf}>
+                <h2 className={s.title}>Contacts</h2>
+                <form className={s.contactInf}>
                     <input/>
                     <input/>
                     <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
+                </form>
                 <button className={s.btn}>send</button>
             </div>
         </div>
