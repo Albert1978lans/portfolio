@@ -1,0 +1,33 @@
+.footerBlock {
+    min-height: 100vh;
+    background-color: #9cc7ad;
+}
+.footerContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerInf {
+    width: clamp(280px, 63vw, 1200px);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid;
+}
+
+.item {
+    width: 250px;
+    height: 250px;
+    background-color: #8c7c7c;
+    margin: 20px;
+}
+
+.footerBottom {
+    width:  clamp(280px, 10vw, 1200px);
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid;
+}

@@ -8,15 +8,14 @@ function Projects() {
         <div className={s.projectsBlock}>
 
             <div className={`${stylesContainer.container} ${s.projectsContainer}`}>
-                <h2>Projects</h2>
+                <h2 className={s.title}>Projects</h2>
                 <div className={s.projects}>
                     <Project/>
                     <Project/>
                     <Project/>
-                    <Project/>
+                    {/*<Project/>*/}
                     {/*<Project/>*/}
                 </div>
-                <button className={s.btn}>send</button>
             </div>
 
         </div>
