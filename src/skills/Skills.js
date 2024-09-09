@@ -14,7 +14,7 @@ function Skills() {
                         <Skill title={'HTML'}
                                description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis deleniti, eum ipsa iusto magni minima nam, perspiciatis quae reprehenderit sed, sunt tempore velit.'}/>
                         <Skill title={'CSS'}
-                               description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis deleniti, eum ipsa iusto magni minima nam, perspiciatis quae reprehenderit sed, sunt tempore velit.'}/>
+                               description={'Lorem ipsum dolor sit amet, eum ipsa iusto magni minima nam, perspiciatis quae reprehenderit sed, sunt tempore velit.'}/>
                         <Skill title={'React-Redux'}
                                description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis deleniti, sunt tempore velit.'}/>
                         <Skill title={'SCSS'}
@@ -24,6 +24,13 @@ function Skills() {
                         <Skill title={'Storybook'}
                                description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis deleniti, eum ipsa iusto magni minima nam, perspiciatis quae reprehenderit sed, sunt tempore velit.'}/>
 
+                        <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
+                        <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
+                        <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
+                        <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
+                        <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
+                        <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
+                        <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
                         <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
                     </div>
 

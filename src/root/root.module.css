@@ -1,0 +1,19 @@
+.rootWrapper {
+    height: 100vh;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+    /*border: 1px solid black;*/
+    display: grid;
+    grid-template-rows: 7% 86% 7%;
+}
+/*.rootHeader {*/
+/*    height: 10vh;*/
+/*}*/
+.rootOutlet {
+    /*flex-grow: 1;*/
+    /*height: 80vh;*/
+}
+/*.rootFooter {*/
+/*    height: 10vh;*/
+/*}*/

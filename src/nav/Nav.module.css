@@ -1,5 +1,14 @@
 .nav {
-    width: 300px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+}
+.nav a {
+    text-decoration: none;
+}
+.active {
+    background-color: red;
+}
+.deactivate {
+    text-decoration: none;
 }

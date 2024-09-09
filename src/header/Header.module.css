@@ -1,7 +1,12 @@
 .header {
-    height: 80px;
+    height: 100%;
+    width: 100%;
     background-color: lightskyblue;
     display: flex;
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
     align-items: center;
+}
+.container {
+    width: clamp(300px, 80vw, 1200px);
+    margin: 0 auto;
 }
