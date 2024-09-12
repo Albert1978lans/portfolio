@@ -1,14 +1,17 @@
 import s from './Project.module.css'
 
-function Project() {
+function Project(props) {
 
     return (
         <div className={s.project}>
 
             <div className={s.imgContainer}>
-                <button className={s.btn}>посмотреть</button>
+                <a href={props.url} target="_blank">
+                    <img src={props.urlImg} alt='image project'/>
+                </a>
+
             </div>
-            <span className={s.name}>Name Project</span>
+            <span className={s.name}>{props.nameProject}</span>
             <span className={s.description}>Description Project</span>
 
 
