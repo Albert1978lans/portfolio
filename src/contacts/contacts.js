@@ -1,11 +1,11 @@
 import s from './Contacts.module.css'
-import stylesContainer from '../common/styles/Container.module.css'
+import Container from '../common/styles/Container.module.css'
 
 function Contacts() {
 
     return (
         <div className={ s.contactsBlock}>
-            <div className={`${stylesContainer.container} ${s.contactsContainer}`}>
+            <div className={`${Container.container} ${s.contactsContainer}`}>
                 <h2 className={s.title}>Contacts</h2>
                 <form className={s.contactInf}>
                     <input/>

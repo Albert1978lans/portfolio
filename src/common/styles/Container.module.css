@@ -1,8 +1,5 @@
 .container {
     width: clamp(300px, 80vw, 1200px);
-    /*min-height: 100vh;*/
-    /*height: 100%;*/
     margin: 0 auto;
-    /*border: 1px solid;*/
-    /*margin: 11% 0 4% calc(36% - (683px - 100%)*0.2);*/
+    border: 1px solid black;
 }

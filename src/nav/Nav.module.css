@@ -2,12 +2,17 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 0 0 0 20px;
 }
 .nav a {
     text-decoration: none;
 }
+.nav a:hover {
+    color: rosybrown;
+}
 .active {
-    background-color: red;
+    /*background-color: red;*/
+    color: yellow;
 }
 .deactivate {
     text-decoration: none;
