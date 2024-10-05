@@ -2,7 +2,7 @@ import './App.css';
 import Main from "./main/Main";
 import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
-import Contacts from "./contacts/contacts";
+import {Contacts} from "./contacts/contacts";
 import {Route, Routes, HashRouter} from "react-router-dom";
 import Root from "./root/root";
 
