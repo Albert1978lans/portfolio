@@ -9,23 +9,39 @@
     align-items: center;
 }
 .title {
-    background-color: #dc9853;
+    margin-bottom: 2%;
 }
 .contactInf {
     width: clamp(280px, 60vw, 700px);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 1px solid;
+    margin-top: clamp(10px, 2vh, 50px);
 }
 
 .contactInf input {
-    margin: 20px 0px;
     background-color: #f7f7f7;
+}
+.contactInf input,label,textarea {
+    margin-top: clamp(10px, 1.7vh, 50px);
+}
+.contactsBlock input,label,textarea,p {
+    font-size: clamp(15px, 1.1vw, 25px);
 }
 
 .btn {
-    width: 80px;
-    margin-bottom: 20px;
-    font-size: 20px;
+    width: clamp(100px, 10vw, 200px);
+    padding: 5px;
+    border: none;
+}
+.btn:hover {
+    background-color: darkgray;
+}
+.inp {
+    width: clamp(250px, 40vw, 400px);
+    border: none;
+}
+.txt {
+    width: clamp(250px, 40vw, 400px);
+    border: none;
 }

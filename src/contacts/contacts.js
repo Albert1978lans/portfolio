@@ -46,15 +46,16 @@ export const Contacts = () => {
     return (
         <div className={s.contactsBlock}>
             <div className={`${Container.container} ${s.contactsContainer}`}>
-                <h2 className={s.title}>Contacts</h2>
+                <h2 className={s.title}>Пишите</h2>
+                <p className={s.title}>Я обязательно отвечу в ближайшее время</p>
                 <form ref={form} onSubmit={sendEmail} className={s.contactInf}>
-                    <label>Name</label>
-                    <input type="text" name="user_name"/>
-                    <label>Email</label>
-                    <input type="email" name="user_email"/>
-                    <label>Message</label>
-                    <textarea name="message"/>
-                    <input type="submit" value="Send"/>
+                    <label>Ваше имя</label>
+                    <input className={s.inp} type="text" name="user_name" required/>
+                    <label>Ваш email</label>
+                    <input className={s.inp} type="email" name="user_email" required/>
+                    <label>Сообщение</label>
+                    <textarea className={s.txt} name="message" rows="8" cols="30" required/>
+                    <input className={s.btn} type="submit" value="Отправить"/>
                 </form>
             </div>
         </div>
