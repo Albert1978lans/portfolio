@@ -24,14 +24,14 @@ function Skills() {
                         <Skill title={'Storybook'}
                                description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis deleniti, eum ipsa iusto magni minima nam, perspiciatis quae reprehenderit sed, sunt tempore velit.'}/>
 
-                        <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
-                        <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
-                        <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
-                        <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
-                        <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
-                        <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
-                        <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
-                        <Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>
+                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
+                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
+                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
+                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
+                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
+                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
+                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
+                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
                     </div>
 
                 </div>

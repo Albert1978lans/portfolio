@@ -1,0 +1,5 @@
+.mySvg {
+    width: clamp(15px, 2.6vw, 40px);
+    height: auto;
+    color: #1F3310FF;
+}
