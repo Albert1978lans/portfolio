@@ -1,6 +1,5 @@
 .container {
-    width: clamp(300px, 80vw, 1200px);
+    width: clamp(300px, 80vw, 1300px);
     margin: 0 auto;
-    /*border: 1px solid black;*/
     height: 100%;
 }

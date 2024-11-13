@@ -20,11 +20,12 @@ import Container from '../common/styles/Container.module.css'
 //
 // export default Contacts;
 
-import React, {useRef} from 'react';
+import React, {useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
 
 export const Contacts = () => {
     const form = useRef();
+const [send,setSend] = useState(false)
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -34,8 +35,12 @@ export const Contacts = () => {
                 publicKey: 'ML2YI-QOJiYMy5Kb3',
             })
             .then(
-                () => {
-                    console.log('SUCCESS!');
+                (res) => {
+                    console.log(res.status);
+                    if (res.status === 200) {
+                        setSend(true)
+                    }
+
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
@@ -56,6 +61,8 @@ export const Contacts = () => {
                     <label>Сообщение</label>
                     <textarea className={s.txt} name="message" rows="8" cols="30" required/>
                     <input className={s.btn} type="submit" value="Отправить"/>
+                    {/*{send && <div>сообщение отправлено</div>}*/}
+                    {send && alert('сообщение отправлено')}
                 </form>
             </div>
         </div>

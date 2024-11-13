@@ -7,11 +7,12 @@ function Main() {
         <div className={s.mainBlock}>
             <div className={`${stylesContainer.container} ${s.mainContainer}`}>
                 <div className={s.text}>
-                    <span>Hi There</span>
-                    <h1>I am Jeffrey Aaron</h1>
-                    <p>Frontend Developer</p>
+                    <p>Привет</p>
+                    <div className={s.name}>Меня зовут Альберт</div>
+                    <p>Я Junior Frontend Developer</p>
                 </div>
-                <div className={s.photo}></div>
+                <div className={s.photo}>
+                </div>
             </div>
 
         </div>
