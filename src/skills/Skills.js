@@ -11,33 +11,26 @@ function Skills() {
                 <div className={s.skillsContainer}>
                     <h2 className={s.title}>Skills</h2>
                     <div className={s.skills}>
-                        <Skill title={'HTML'}
-                               description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis deleniti, eum ipsa iusto magni minima nam, perspiciatis quae reprehenderit sed, sunt tempore velit.'}/>
-                        <Skill title={'CSS'}
-                               description={'Lorem ipsum dolor sit amet, eum ipsa iusto magni minima nam, perspiciatis quae reprehenderit sed, sunt tempore velit.'}/>
-                        <Skill title={'React-Redux'}
-                               description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis deleniti, sunt tempore velit.'}/>
-                        <Skill title={'SCSS'}
-                               description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis deleniti, perspiciatis quae reprehenderit sed, sunt tempore velit.'}/>
-                        <Skill title={'Node.JS'}
-                               description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis deleniti, eum ipsa iusto magni minima nam, perspiciatis quae reprehenderit sed, sunt tempore velit.'}/>
-                        <Skill title={'Storybook'}
-                               description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis deleniti, eum ipsa iusto magni minima nam, perspiciatis quae reprehenderit sed, sunt tempore velit.'}/>
+                        <Skill title={'HTML'} icon={'html'}
+                               description={'Знание структуры HTML-документа. Умение использовать основные теги HTML. Понимание важности семантической разметки для улучшения доступности и SEO. Знание основных атрибутов (например, id, class, src, href, alt) и умение использовать их для настройки элементов.'}/>
+                        <Skill title={'CSS'} icon={'css'}
+                               description={'Основы CSS: знание селекторов, свойств и значений. Знание методов позиционирования (static, relative, absolute, fixed) и работы с флексбоксом и грид-сетками. Знание принципов адаптивной и отзывчивой верстки (responsive design). Умение использовать медиа-запросы для изменения стилей в зависимости от размера экрана.'}/>
+                        <Skill title={'JavaScript'} icon={'javascript'}
+                               description={'Владение современными стандартами JavaScript, включая синтаксис ES6 и выше, такие как стрелочные функции, промисы, async/await и деструктуризация.'}/>
+                        <Skill title={'React'} icon={'react'}
+                               description={'Понимание основ React, включая компоненты, пропсы, состояние (state), жизненный цикл компонентов и хуки (Hooks).'}/>
+                        <Skill title={'Redux'} icon={'redux'}
+                               description={'Опыт работы с Redux для управления состоянием приложения, включая использование Redux Toolkit и middleware (например, thunk или saga).'}/>
+                        <Skill title={'React Router'} icon={'router'}
+                               description={'Знание библиотеки React Router для реализации маршрутизации и навигации в одностраничных приложениях (SPA).'}/>
 
-                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
-                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
-                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
-                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
-                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
-                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
-                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
-                        {/*<Skill title={'React'} description={'Lorem ipsum dolor sit amet'}/>*/}
+                        <Skill title={'TypeScript'} icon={'ts'} description={' Знание TypeScript для добавления статической типизации в React-приложения'}/>
+                        <Skill title={' Version Control (Git)'} icon={'git'} description={'Использование Git для контроля версий и совместной работы над проектами.'}/>
+                        <Skill title={'Тестирование'} icon={'test'} description={'Опыт написания unit тестов'}/>
+                        <Skill title={'Formik'} icon={'formik'} description={' Умение обрабатывать ошибки валидации и отображать их пользователю. Понимание, как обрабатывать событие отправки формы с помощью onSubmit. Знание о том, как управлять асинхронными действиями '}/>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
     );
 }

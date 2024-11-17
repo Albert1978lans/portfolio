@@ -15,14 +15,16 @@
 .title {
     padding: 10px 20px;
     text-align: center;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
 }
 .skills {
     width: 100%;
     height: calc(100vh - 25vh);
-    /*border: 1px solid;*/
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     overflow: auto;
+}
+.skills::-webkit-scrollbar {
+    width: 0;
 }
