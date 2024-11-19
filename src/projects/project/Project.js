@@ -1,7 +1,6 @@
 import s from './Project.module.css'
 
 function Project(props) {
-
     return (
         <div className={s.project}>
 
@@ -9,12 +8,12 @@ function Project(props) {
                 <a href={props.url} target="_blank">
                     <img src={props.urlImg} alt='image project'/>
                 </a>
-
             </div>
             <span className={s.name}>{props.nameProject}</span>
-            <span className={s.description}>Description Project</span>
-
-
+            <span
+                className={s.description}
+                onClick={() => props.controlModal(props.nameProject)}
+            >Description Project</span>
         </div>
     );
 }

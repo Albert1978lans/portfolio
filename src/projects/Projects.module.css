@@ -1,8 +1,10 @@
 .projectsBlock {
+    position: relative;
     height: 100%;
     background-color: #9d9ade;
 }
 .projectsContainer {
+    /*position: relative;*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -11,7 +13,7 @@
 .title {
     padding: 10px 20px;
     text-align: center;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
 }
 .projects {
     width: 100%;
@@ -19,3 +21,34 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.modalWindow {
+    position: fixed;
+    top: 7%;
+    height: 86%;
+    /*top: 0;*/
+    right: -80vw;
+    width: 70vw;
+    /*height: 100%;*/
+    background-color: rosybrown;
+    padding: 10px 0 10px 20px;
+    transition: all 300ms linear;
+}
+
+.modalWindow.active {
+    right: 0vw;
+}
+@media (max-width: 768px) {
+    .modalWindow {
+        top: 4%;
+        height: 84%;
+        right: -100vw;
+        width: 100vw;
+    }
+}
+/*@media (max-width: 576px) {*/
+/*    .modalWindow {*/
+/*        top: 4%;*/
+/*        height: 86%;*/
+/*    }*/
+
+/*}*/
